@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6BA2BD</color>
+    <color name="colorPrimaryLight">#CEE4CF</color>
+    <color name="colorPrimaryDark">#6BA2BD</color>
+    <color name="colorAccent">#BB6251</color>
+
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+
+    <color name="main_bg">#EEFFEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="lucency_white">#00ffffff</color>
+    <color name="lucency_black">#00000000</color>
+    <color name="half_lucency_black">#88000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="hint">#ff999999</color>
+    <color name="grey80">#CCCCCC</color>
+    <color name="grey">#ff666666</color>
+    <color name="blue">#ff2e94da</color>
+    <color name="red">#ffa22a22</color>
+    <color name="bg_color">#F4F3F3</color>
+    <color name="primaryGreen">#6BA2BD</color>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_voice_chat_view">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/share_location_users"
+            layout="@layout/share_location_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapboxMapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            mapbox:mapbox_cameraTargetLat="40.73581"
+            mapbox:mapbox_cameraTargetLng="-73.99155"
+            mapbox:mapbox_cameraZoom="12"
+            mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10">
+
+        </com.mapbox.mapboxsdk.maps.MapView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_nav_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/mapboxGrayLight"
+        android:enabled="false"
+        android:padding="5px"
+        android:text="Start navigation"
+        android:textColor="@color/mapboxWhite" />
+
+    <ImageView
+        android:id="@+id/mutePhone"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="410dp"
+        android:layout_weight="20"
+        android:onClick="onLocalAudioMuteClicked"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_mute" />
+
+    <ImageView
+        android:id="@+id/speakPhone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/mutePhone"
+        android:layout_alignTop="@+id/mutePhone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="20"
+        android:contentDescription="TODO"
+        android:onClick="onSwitchSpeakerphoneClicked"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_speaker" />
+
+
+</RelativeLayout>

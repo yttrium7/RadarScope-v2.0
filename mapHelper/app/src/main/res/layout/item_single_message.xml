@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/message_single_layout">
+
+    <include
+        layout="@layout/message_receiver_single_layout"
+        android:id="@+id/message_receiver" />
+
+    <include
+        layout="@layout/message_sender_single_layout"
+        android:id="@+id/message_sender" />
+
+    <include
+        layout="@layout/location_receiver_single_layout"
+        android:id="@+id/location_receiver" />
+
+    <include
+        layout="@layout/location_sender_single_layout"
+        android:id="@+id/location_sender" />
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.vulpix.maphelper">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/radarscope_icon"
+        android:label="@string/app_name"
+        android:logo="@drawable/radarscope_icon"
+        android:roundIcon="@drawable/radarscope_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- You don't need to include android:required="false" if your app's
+        minSdkVersion is 28 or higher. -->
+        <uses-library android:name="android.test.runner"
+            android:required="false" />
+
+        <activity
+            android:name=".controller.activity.WelcomeActivity"
+            android:logo="@drawable/default_avatar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controller.activity.ChatActivity" />
+        <activity android:name=".controller.activity.AskForHelp" />
+        <activity android:name=".controller.activity.SelfNavActivity" />
+        <activity android:name=".controller.activity.TrackActivity" />
+        <activity android:name=".controller.activity.SearchFriendActivity" />
+        <activity android:name=".controller.activity.MyRequestActivity" />
+        <activity android:name=".controller.activity.SignUpActivity" />
+        <activity android:name=".controller.activity.StartPageActivity" />
+        <activity android:name=".controller.activity.LoginActivity" />
+        <activity android:name=".controller.activity.MainActivity" />
+        <activity android:name=".controller.activity.ProfileActivity" />
+        <activity android:name=".controller.activity.ShareLocationActivity" />
+        <activity android:name=".controller.activity.ChooseSafeMessenger" />
+        <activity android:name=".controller.activity.NavWithSafeMessage" />
+
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.MyFirebaseInstanceIdService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.GeofenceTrasitionService" />
+        <service android:name=".service.TrackingOnFirebase" />
+        <service android:name=".service.TrackingByGPS"/>
+    </application>
+
+</manifest>

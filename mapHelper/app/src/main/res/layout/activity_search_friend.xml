@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.activity.SearchFriendActivity">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/search_bg_wirh_radius"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="  Enter Name Here"
+        android:inputType="textMultiLine"
+        android:textColor="@color/primaryGreen" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/search_user"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:background="@color/primaryGreen"
+        android:text="Search"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="123dp" >
+
+    </com.gc.materialdesign.views.ButtonRectangle>
+
+
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/enter_name"
+        android:layout_alignTop="@+id/enter_name"
+        android:layout_alignBottom="@+id/enter_name"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/search" />
+
+    <ListView
+        android:id="@+id/all_user_list"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="246dp"
+        android:layout_marginBottom="23dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="149dp" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.activity.SearchFriendActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/new_friend_request"
+                android:layout_width="365dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="19dp"
+                android:background="@drawable/gradient_bg"
+                android:text="You have  0  new friend request"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+    <ListView
+        android:id="@+id/my_friend_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/no_friend"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="You haven't add any friends, click             to add more friends"
+        android:textColor="@color/primaryGreen"
+        android:textSize="22sp"
+        android:visibility="invisible" >
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/add_friend_image"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/no_friend"
+        android:layout_alignTop="@+id/no_friend"
+        android:layout_alignBottom="@+id/no_friend"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_with_radius"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/add_friend"
+        android:visibility="invisible"
+        android:clickable="false"/>
+
+    <ImageView
+        android:id="@+id/new_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/ic_tips_big_new"
+        android:visibility="invisible" />
+
+</RelativeLayout>

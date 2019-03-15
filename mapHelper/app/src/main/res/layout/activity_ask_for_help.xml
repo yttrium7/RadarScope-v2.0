@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.activity.SearchFriendActivity">
+
+    <TextView
+        android:id="@+id/ask_friend_for_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="13dp"
+        android:text="Choose one of your friend to ask for help"
+        android:textColor="@color/primaryGreen"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+
+    <ListView
+        android:id="@+id/ask_for_help_friend_list"
+        android:layout_width="match_parent"
+        android:layout_height="471dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp" />
+
+    <ProgressBar
+        android:id="@+id/ask_for_help_friend_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="227dp" />
+
+</RelativeLayout>

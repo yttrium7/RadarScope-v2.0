@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/self-service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.activity.MainActivity">
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/help_yourself"
+        android:layout_width="242dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="276dp"
+        android:background="@color/primaryGreen"
+        android:text="HELP YOURSELF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/ask_for_help"
+        android:layout_width="242dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="404dp"
+        android:background="@color/primaryGreen"
+        android:text="ASK FOR HELP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent">
+    </com.gc.materialdesign.views.ButtonRectangle>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ask_for_help"
+        app:layout_constraintEnd_toStartOf="@+id/ask_for_help"
+        app:srcCompat="@drawable/ask_for_help" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/help_yourself"
+        app:layout_constraintEnd_toStartOf="@+id/help_yourself"
+        app:srcCompat="@drawable/earth" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/main_pic" />
+
+
+</android.support.constraint.ConstraintLayout>
