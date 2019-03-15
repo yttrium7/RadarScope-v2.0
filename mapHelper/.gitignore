@@ -27,3 +27,4 @@ hs_err_pid*
 /app/src/main/res/values/strings.xml
 /app/google-services.json
 /app/src/debug
+*/.DS_Store
