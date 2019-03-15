@@ -62,7 +62,7 @@ Android device running ![SDK](https://img.shields.io/badge/SDK-27-orange.svg)
 5. It uses `espresso` and `Junit4` to test the UI and Activity of the projects.
 
 ## Source by
-the University of Melbourne COMP30022
-UI design :
+###### the University of Melbourne COMP30022
+###### UI design :
 - [iconfont](http://www.iconfont.cn/)
 - [unDraw.io](https://undraw.co/illustrations)
