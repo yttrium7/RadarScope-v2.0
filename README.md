@@ -42,17 +42,17 @@ Android device running ![SDK](https://img.shields.io/badge/SDK-27-orange.svg)
 |--|--|
 | sign up or login easily | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-creat-account.gif" height=400 alt="create-account"> |
 | You could also update your personal information in the 'Account' tab | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-4fragment-edit-account.gif" align=left height=400 alt="edit-account"> |
-| Add friends | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-send-friend-request-log-out.gif" align=left height=400 alt="add-friend"> <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-accept-request.gif" height=400 alt="accept-request"> |
-| Unfriend if in any need | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-unfriend.gif" align=left height=400 alt="unfriend"> |
-| You could send the message to your contacts via the Message | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-first-chat.gif" align=left height=400 alt="chat"> |
+| Add friends | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-send-friend-request-log-out.gif" height=400 alt="add-friend"> <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-accept-request.gif" height=400 alt="accept-request"> |
+| Unfriend if in any need | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-unfriend.gif" height=400 alt="unfriend"> |
+| You could send the message to your contacts via the Message | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-first-chat.gif" height=400 alt="chat"> |
 
 - You could choose either `ASK FOR HELP` or `FIND YOURSELF` options
 
 |  |  |
 |--|--|
-|After choosing `ASK FOR HELP`, you need choose a contact to invite him to help you. He could set the destination and route for you and talk to you by voice in realtime.|<img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-ask-for-help-and-accept-help.gif" align=left height=400 alt="ask-for-help"> <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-help-someone-to-find-way.gif" align=left height=400 alt="accept-help">|
+|After choosing `ASK FOR HELP`, you need choose a contact to invite him to help you. He could set the destination and route for you and talk to you by voice in realtime.|<img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-ask-for-help-and-accept-help.gif" height=400 alt="ask-for-help"> <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-help-someone-to-find-way.gif" height=400 alt="accept-help">|
 |After choosing `HELP YOURSELF`, you need to set the destination and route by yourself. You could also choose a contact to send the safe message on your way.| |
-|What's more, if you do not know what to do after choosing the `FIND YOURSELF`, you could simply click the red button right corner '?' to look for the help in this duration.|<img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-need-help.gif" align=left height=400 alt="need-help">|
+|What's more, if you do not know what to do after choosing the `FIND YOURSELF`, you could simply click the red button right corner '?' to look for the help in this duration.|<img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-need-help.gif" height=400 alt="need-help">|
 |After setting the destination and route, you could simply follow the navigation to find the way.| |
 
 
