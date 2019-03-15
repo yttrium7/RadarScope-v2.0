@@ -40,13 +40,9 @@ Android device running ![SDK](https://img.shields.io/badge/SDK-27-orange.svg)
 | | |
 |--|--|
 | sign up or login easily | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-creat-account.gif" align=left height=400 alt="create-account"> |
-
 | You could also update your personal information in the 'Account' tab | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-4fragment-edit-account.gif" align=left height=400 alt="edit-account"> |
-
 | Add friends | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-send-friend-request-log-out.gif" align=left height=400 alt="add-friend"> <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-accept-request.gif" align=left height=400 alt="accept-request"> |
-
 | Unfriend if in any need | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-unfriend.gif" align=left height=400 alt="unfriend"> |
-
 | You could send the message to your contacts via the Message | <img src="https://github.com/yttrium7/RadarScope-v2.0/blob/master/rs-clips/rs-first-chat.gif" align=left height=400 alt="chat"> |
 
 - You could choose either `ASK FOR HELP` or `FIND YOURSELF` options
